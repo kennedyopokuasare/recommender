@@ -9,5 +9,5 @@ https://www.youtube.com/watch?v=XfAe-HLysOM&ab_channel=TorontoMachineLearningSer
 
 ## Activate recommend virtual env
 ````
-    source recommend/bin/activate
+    source env/bin/activate
 ``
