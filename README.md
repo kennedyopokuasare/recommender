@@ -1,13 +1,4 @@
+# Recommender
+This repository is an implementation of a movie recommender system using the MovieLens Data Set
 
-# Movie recommender systems
-
-Data from MovieLens Data Set
-
-# Tutorial
-
-https://www.youtube.com/watch?v=XfAe-HLysOM&ab_channel=TorontoMachineLearningSeries%28TMLS%29
-
-## Activate recommend virtual env
-````
-    source env/bin/activate
-``
+This follows the tutorial  here: https://www.youtube.com/watch?v=XfAe-HLysOM&ab_channel=TorontoMachineLearningSeries%28TMLS%29
