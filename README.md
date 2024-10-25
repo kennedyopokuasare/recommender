@@ -17,15 +17,20 @@ Exploratory data analysis was conducted to understand the distribution of movie 
 
 The dataset contains a total of 100,836 ratings. There are 9,742 unique movie IDs and 610 unique users. On average, each user has provided 165.3 ratings, while each movie has received an average of 10.35 ratings. The mean global rating is 3.5, and the average rating per user is 3.66.
 
+![Raitngs per user and per movie](./img/ratings_per_user.png)
+
+The most active user rated 2,698 movies, while the least active user rated 20 movies. The most rated movie has 329 ratings, and the least rated movie has 1 rating.
+
 ### Movie Genre
 
 ![distrilbution of movie genres](./img/movie_genre.png)
 Drama is the most common genre, with over 4,000 movies.
 Comedy follows, with a slightly lower frequency. War, Musical, Western, IMAX, and Film-Noir have the fewest movies.
 
+
 ## Data Preprocessing
 
-**Collaborative filtering** works on the premise that similar users like similar movies. Here, we transform the movie ratings data into a user-movie matrix, known as the utility matrix. In the utility matrix, rows represent users, columns represent movies, and the matrix items \( u_{i,j} \) represent user \( i \)'s rating of movie \( j \).
+**Collaborative filtering** works on the premise that similar users like similar movies. Here, we transform the movie ratings data into a user-movie matrix, known as the utility matrix. In the utility matrix, rows represent users, columns represent movies, and the matrix items $u_{i,j}$ represent user $ i $'s rating of movie $ j $.
 
 
 
