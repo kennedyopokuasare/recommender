@@ -1,11 +1,10 @@
 # Recommender
 
-A Movie recommendation system using collaborative filtering and content based filtering. In this project, we use the MovieLens Dataset and follow the tutorial [here][Video_tutorial]. 
+A movie recommendation system using collaborative filtering and content based filtering. In this project, we use the MovieLens Dataset and follow the tutorial [here][Video_tutorial]. 
 
 ## The Dataset
 
 The Movie Lens dataset can be downloaded from [GroupLen website][GroupLens]. There are several sizes of the dataset available. However, given the compute and storage constraints of my local machine, the 25 million entries version was download. 
-
 
 ## Exploratory Data Analysis
 
@@ -27,12 +26,13 @@ The most active user rated 2,698 movies, while the least active user rated 20 mo
 Drama is the most common genre, with over 4,000 movies.
 Comedy follows, with a slightly lower frequency. War, Musical, Western, IMAX, and Film-Noir have the fewest movies.
 
-
 ## Data Preprocessing
 
 **Collaborative filtering** works on the premise that similar users like similar movies. Here, we transform the movie ratings data into a user-movie matrix, known as the utility matrix. In the utility matrix, rows represent users, columns represent movies, and the matrix items $u_{i,j}$ represent user $ i $'s rating of movie $ j $.
 
+## Generating recommendations
 
+**Open [the notebook to read](./movie_recommender.ipynb)** the code and how the recommendations system works using unsupervised K Nearest Neighbours and Cosine similarity.
 
 ## References
 
